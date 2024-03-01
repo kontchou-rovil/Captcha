@@ -1,0 +1,101 @@
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+/* body{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+} */
+/* #label1{
+  display: flex;
+  justify-content: flex-end;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#label2{
+  position: absolute;
+  bottom: 0;
+} */
+
+/* captcha_css */
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 15px 25px 25px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input_field {
+  position: relative;
+  height: 45px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.refresh_button {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  background: #826afb;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.refresh_button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+.input_field input,
+.button button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.message.active {
+  display: block;
+}
+
+.button button {
+  background: #826afb;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button button:active {
+  transform: scale(0.99);
+}
+
+.button.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    
+    <!-- <div>
+      <label id="label1">x-coordinate<input type="text" id="positionX"></label>
+      </div>
+      <div class="label">
+      <div id="label2">y-coordinate<input type="text" id="positionY"></div>
+    </div> -->
+
+   
+    <div class="container">
+      <header>Captcha generator</header>
+        <div class="input_field captch_box">
+          <input type="text" value="" disabled />
+          <button class="refresh_button">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+        <div class="input_field captcha_input">
+          <input type="text" placeholder="Enter captcha"/>
+        </div>
+        <div class="message">Entered captcha is correct</div>
+        <div class="input_field button disabled">
+          <button>submit captcha</button>
+        </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
